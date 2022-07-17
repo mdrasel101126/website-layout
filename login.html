@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <script src="https://kit.fontawesome.com/db06682d12.js" crossorigin="anonymous"></script>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            /* margin: 0 auto; */
+        }
+        .login-form input{
+            margin-top: 1em;
+            font-size: 1.5em;
+            padding:5px 10px;
+        }
+        .login-form input[type="submit"]{
+            background-color: orange;
+            border: 0;
+            border-radius: 5px;
+            color: whitesmoke;
+            font-weight: 700;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="http://">Home</a>
+                <a href="http://">Dashboard</a>
+                <a href="http://">Inventory</a>
+            </span>
+            <span>
+            <a href="http://"><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="form-container">
+        <form class="login-form">
+            <h1>Please Login</h1>
+            <input type="email" name="email" id="" placeholder="Your Email" required>
+            <input type="password" name="" id="" placeholder="Your Password" required>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explore flexbox</title>
+    <style>
+        .container{
+            border: 3px dotted purple;
+            display: flex;
+            /* justify-content:center;
+            align-items: center; */
+            align-items: stretch;
+            flex-wrap: wrap;
+            height: 300px;
+        }
+        .box{
+            font-size: 3ex;
+            font-weight: 700;
+            border: 2px dashed peru;
+            width: 100px;
+            /* height: 100px; */
+        }
+        #box-2{
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div id="box-2" class="box">box-2</div>
+        <!--
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-33</div>
+        <div class="box">box-44</div> -->
+    </div>
+</body>
+</html>
